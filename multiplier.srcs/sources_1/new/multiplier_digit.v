@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 05/23/2018 03:50:58 PM
+// Create Date: 05/23/2018 08:54:45 PM
 // Design Name: 
-// Module Name: multiplier_tb
+// Module Name: multiplier_digit
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,25 +20,16 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module multiplier_tb();
-    reg [3:0]A, B;
-    wire [3:0]R;
-    wire overflow;
-
-    multiplier DUT (
-        .A(A),
-        .B(B),
-        .R(R),
-        .overflow(overflow)
+module multiplier_digit #(
+    parameter n = 4
+) (
+    input [n-1:0] A,
+    input [n-1:0] B,
+    input i,
+    output [n:0] PP
     );
-
-    initial begin
-        A = 14; B = 11;        
-        #20 A = 0; B = 1;
-        #20 A = 7; B = 2;
-        #20 A = 3; B = 3;
-        #20 A = 5; B = 2;
-        #20
-        $finish;
+    always @(A, B)
+    begin
+        assign PP = A & {n{B[i]}};
     end
 endmodule

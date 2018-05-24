@@ -1,7 +1,7 @@
 0.6
 2018.1
 Apr  4 2018
-18:43:17
-/home/zach/multiplier/multiplier.sim/sim_1/behav/xsim/glbl.v,1522801934,verilog,,,,glbl,,,,,,,,
-/home/zach/multiplier/multiplier.srcs/sim_1/new/multiplier_tb.v,1527112701,verilog,,,,multiplier_tb,,,,,,,,
-/home/zach/multiplier/multiplier.srcs/sources_1/new/multiplier.v,1527112589,verilog,,/home/zach/multiplier/multiplier.srcs/sim_1/new/multiplier_tb.v,,multiplier,,,,,,,,
+19:30:32
+C:/Users/Zach/Development/verilog_multiplier/multiplier.sim/sim_1/behav/xsim/glbl.v,1527129241,verilog,,,,glbl,,,,,,,,
+C:/Users/Zach/Development/verilog_multiplier/multiplier.srcs/sim_1/new/multiplier_tb.v,1527138211,verilog,,,,multiplier_tb,,,,,,,,
+C:/Users/Zach/Development/verilog_multiplier/multiplier.srcs/sources_1/new/multiplier.v,1527138148,verilog,,C:/Users/Zach/Development/verilog_multiplier/multiplier.srcs/sim_1/new/multiplier_tb.v,,multiplier,,,,,,,,
